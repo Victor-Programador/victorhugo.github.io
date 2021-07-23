@@ -1,0 +1,45 @@
+body {
+  font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+  margin: 12px 0;
+}
+section{
+    width: 700px;
+    height: 450px;
+    margin: auto;
+    margin-top: 90px;
+}
+.card-container {
+  cursor: pointer;
+  height: 150px;
+  perspective: 600;
+  position: relative;
+  width: 150px;
+  margin: auto;
+  display: inline-block;
+}
+.card {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+.card:hover {
+  transform: rotateY(180deg);
+  box-shadow: 1px 1px 10px 1px #000;
+}
+img {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 150px;
+  position: absolute;
+  overflow: hidden;
+  width: 150px;
+}
+.back {
+  background: #eaeaed;
+  color: #0087cc;
+  line-height: 150px;
+  text-align: center;
+  transform: rotateY(180deg);
+}

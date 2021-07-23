@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Lush Motel</title>
+        <link rel="stylesheet" type="text/css" href="check-in.css"/>
+    </head>
+    <body>      
+        
+        <header id="topo">
+            <section>
+                <h1>Lush Motel</h1>
+                <nav>
+                    <a href="index.html" class="black">Home</a>
+                    <a href="#2" id="select">Check-in</a>
+                    <a href="#3" class="black">Check-out</a>
+                    <a href="#4" class="black">Solitação de serviço</a>
+                    <a href="#5" class="black">Registro de reserva</a>
+                </nav>
+            </section>
+        </header>
+
+        <form method="get">
+            <fieldset>
+               <legend>Dados do Hospede</legend>
+                Nome Completo: <input type="text" name="nome"><br>
+                RG: <input type="number" name="RG"><br>
+                CPF: <input type="number" name="CPF"><br>
+                Data de Nascimento: <input type="date" name="datanasc"><br>
+                E-mail: <input type="email" name="email"><br>
+                Genero:<br>
+                <label for="g1">
+                    <input type="radio" name="genero" value="1" id="g1">Feminino
+                </label>
+                <br>
+                <label for="g2">
+                    <input type="radio" name="genero" value="2" id="g2">Masculino
+                </label>
+                <br>
+                Raça declarada:<br>
+                <select name="raça">
+                    <option value=""></option>
+                    <option value="1">Branca</option>
+                    <option value="2">Negra</option>
+                    <option value="3">Parda</option>
+                    <option value="4">Amarela</option>
+                    <option value="5">Indigena</option>
+                    <option value="6">Desconhecida</option>
+                </select>
+                <br>
+                como ficou sabendo do Motel:<br>
+                <input type="checkbox" name="estudo" value="convidado">convidado
+                <br>
+                <input type="checkbox" name="estudo" value="internet">internet
+                <br>
+                 <input type="checkbox" name="estudo" value="amigos">amigos
+                <br>
+                 <input type="checkbox" name="estudo" value="familiares">familiares
+                <br>
+                 <input type="checkbox" name="estudo" value="outros">outros
+                <br>
+                
+            </fieldset>
+            
+            </form>
+
+            <form action="get">
+                <fieldset>
+                    <legend>Endereço do Hopede</legend>
+                    Lougradouro: <input type="text" name="Rua"><br>
+                    Numero: <input type="number" name="Numero"><br>
+                    Bairro: <input type="text"  name="bairro"><br>
+                    Cidade: <input type="text"  name="cidade">
+                    UF: <input type="text" name="estado"><br>
+                    CEP: <input type="text" name="cep">
+                    
+                </fieldset>
+                <a id="eviar" href="contrato.html">enviar</a>
+                
+            </form>
+        
+        
+        <footer>
+            &copy; 2019
+        </footer>
+    </body>
+</html>

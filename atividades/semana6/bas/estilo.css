@@ -1,0 +1,32 @@
+.geral, geral2{
+    border: 2px dashed #000;
+    border-radius: 10px;
+    width: 960px;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+img{
+    width: 200px;
+}
+
+figure,section{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+section{
+    width: 500px;
+    border-left: 2px solid #f00;
+    padding: 20px;
+}
+
+footer{
+    border: 2px solid #000;
+    margin: auto;
+    width: 960px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #858d8d;
+}

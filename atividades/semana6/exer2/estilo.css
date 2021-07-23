@@ -1,0 +1,55 @@
+#container{
+    width: 960px;
+    margin: auto
+}
+
+figure{
+    float: left;
+    margin: 5px;
+    width: 300px;
+    border: 1px solid;
+    border-radius: 30px;
+    padding-right: 4px;
+    padding-left: 4px;
+    height: 410px
+}
+
+img{
+    width: 240px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+#ttt{
+    width: 240px;
+    height: 161px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+header{
+    border: 1px solid;
+    border-radius: 30px;
+    height: 35px;
+    width: 960px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    padding-top: 12px;
+    margin-bottom: 25px;
+}
+
+figcaption{
+    text-align: center;
+}
+
+hr{
+    height: 2px;
+    background-color: #000;
+}
+
+h3{
+    font-family: sans-serif;
+    font-size: 17px;
+}

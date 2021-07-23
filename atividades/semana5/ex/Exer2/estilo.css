@@ -1,0 +1,74 @@
+figure{
+    margin: auto;
+    border: 1px solid;
+    border-radius: 20px;
+    width: 400px;
+    height: 650px;
+    box-shadow: 1px 2px 1px 0px #181717, 4px 6px 4px 0px #494747;
+    font-family: cursive;
+}
+
+
+h1{
+    display: inline-block;
+    padding: 10px;
+    margin: auto;
+}
+
+
+img{
+    border-radius: 20px 20px 0px 0px;
+    width: 400px;
+}
+
+
+.dist{
+    display: inline-block;
+    padding-left: 140px;
+    margin: auto;
+}
+
+
+.dist>img{
+    width: 25px;
+}
+
+.estrelas>img{
+    width: 140px;
+    margin: auto; 
+}
+
+
+.horario{
+    padding-left: 25px;
+    display: inline-block;
+}
+
+
+.reserva{
+    font-size: 50px;
+    color: #919191;
+    padding-left: 100px;
+        
+}
+
+
+.dias{
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+}
+
+
+.clock{
+    position: absolute;
+    top: 560px;
+    width: 30px;
+}
+
+
+div{
+    display: inline-block;
+    padding-left: 10px;
+}
